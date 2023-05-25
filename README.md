@@ -11,3 +11,4 @@
 - **Deadlocks:** characterization, prevention, avoidance, detection, recovery
 - **Memory Management:** main memory swapping, allocation,segmentation, paging, virtual memory, replacement policies, frames, thrashing
 - **Storage Management:** disk structure and management, file system interface and implementation, I/O systems
+
