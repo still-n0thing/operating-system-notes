@@ -33,7 +33,7 @@
 - No universally accepted defination
 - "Everything a vendor ships when you order as OS" is a good approximation
     - But varies widely
-- "The one program running at all times on the computer" is the **kernal** .
+- "The one program running at all times on the computer" is the **kernal** 
 - Everthing else is either
     - a system program (ships with OS), or
     - an application program
