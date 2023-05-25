@@ -26,13 +26,13 @@ I/O
                  | P1             |
 ------------------------------------------------
 ```
-- I/O devices has a queue and service one at a time whenever it completes them its gonna generate an interrupt
-- kenel invokes the CPU schedular 
-- Process reqests I/O trough a **system call** (most common service of system call for I/O)
+- kenel invokes the CPU schedular to look for any active process which requires any resources
+- I/O devices has a queue and services one process at a time, whenever it completes one its generates an interrupt
+- Process reqests I/O trough a **system call** (most common service of system call is for I/O)
 - **system call** is implemented using a **interrupt**
-- Whenever an interrupts is generated control is given to kernel. Read about Interrupt Service Routine.
+- Whenever an interrupts is generated control is given to kernel. Then Interrupt Service Routine takes place
 - When a process competes it I/O request (**waiting** state) it uses an **interrupt** to inform OS that it is done
-- The kernal takes over after this **interrupt** and copies the the data from local buffer to main memory and marks the process as **ready**
+- The kernal takes over after this **interrupt** to infrom that it is done is make and copies the the data from local buffer to main memory and marks the process as **ready**
 
 
 ### Special Interrupt exc
