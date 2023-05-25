@@ -22,4 +22,4 @@ OS decides which process gets the CPU and for how long.
 
 
 ### What is Deadlock?
-Issue occures when we have parallel process and we try to syconise them.
+Issue occures when we have parallel process and we try to synchronize them.
